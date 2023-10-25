@@ -1,0 +1,69 @@
+body {
+	display: grid;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+	display: inline;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 350px;
+}
+
+input[type="tel"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 350px;
+}
+
+input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+	margin: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+	
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #007BFF;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+}
+
